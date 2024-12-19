@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="profile">
+                <img src="your-photo.jpg" alt="Your Photo" class="profile-photo">
+                <h2>MAHEK TIKEDAR</h2>
+                <p>Location: HYDERABAD, INDIA</p>
+                <button class="resume-btn" onclick="downloadResume()">Download Resume</button>
+                <div class="social-links">
+                    <a href="https://github.com/mahekt118" target="_blank"><img src="github-icon.png" alt="GitHub"></a>
+                    <a href="https://linkedin.com/in/mahek-t-125114am" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <!-- About Me -->
+            <section id="about-me">
+                <h2>About Me</h2>
+                <p>
+                    I am a passionate and dedicated individual pursuing a career in Artificial Intelligence and Machine Learning. 
+                    Currently, I am doing an IABAC course for Data Science and have been certified as an AIML Engineer through PMKVY. 
+                    I successfully completed an NPTEL course in Cloud Computing and gained hands-on experience through two 
+                    internships under a professor at NITW: one on EEG Signal Processing and another on Ensemble Learning for 
+                    Effective Diabetic Classification. I thrive on challenges and constantly strive to enhance my skills and knowledge.
+                </p>
+            </section>
+
+            <!-- Key Skills -->
+            <section id="key-skills">
+                <h2>Key Skills</h2>
+                <ul>
+                    <li>Machine Learning Algorithms</li>
+                    <li>Deep Learning Techniques</li>
+                    <li>Data Preprocessing and Analysis</li>
+                    <li>Cloud Computing</li>
+                    <li>Python, TensorFlow, and scikit-learn</li>
+                    <li>SQL and Tableau</li>
+                </ul>
+            </section>
+
+            <!-- Projects -->
+            <section id="projects">
+                <h2>Projects</h2>
+                <div class="project">
+                    <h3>EEG Signal Processing using Transformer Models</h3>
+                    <p>Developed a transformer-based approach for processing EEG signals, enhancing brain activity analysis with deep learning.</p>
+                </div>
+                <div class="project">
+                    <h3>Ensemble Learning for Diabetic Classification</h3>
+                    <p>Implemented ensemble techniques to improve the accuracy of diabetic classification, utilizing advanced machine learning methods.</p>
+                </div>
+                <div class="project">
+                    <h3>Customer Segmentation with Behavioral Analysis</h3>
+                    <p>Used unsupervised learning techniques to segment customers based on behavioral data such as purchase history and browsing habits.</p>
+                </div>
+                <div class="project">
+                    <h3>Automated Resume Screening System</h3>
+                    <p>Developed a system to automate resume screening using machine learning, reducing hiring process time significantly.</p>
+                </div>
+                <div class="project">
+                    <h3>BMI Calculator</h3>
+                    <p>Built a user-friendly application to calculate Body Mass Index (BMI) based on user input, enhancing health awareness.</p>
+                </div>
+            </section>
+
+            <!-- Awards & Certifications -->
+            <section id="awards-certifications">
+                <h2>Awards & Certifications</h2>
+                <div class="award">
+                    <img src="pmkvy-certification.jpg" alt="PMKVY Certification">
+                    <p>Certified AIML Engineer (PMKVY)</p>
+                </div>
+                <div class="award">
+                    <img src="iabac-certification.jpg" alt="IABAC Certification">
+                    <p>Completed IABAC Data Science Course</p>
+                </div>
+                <div class="award">
+                    <img src="nptel-cloud-computing.jpg" alt="NPTEL Cloud Computing">
+                    <p>NPTEL Certificate in Cloud Computing</p>
+                </div>
+                <div class="award">
+                    <img src="hackathon-winner.jpg" alt="Hackathon Winner">
+                    <p>Smart Innovation Hackathon Winner</p>
+                </div>
+                <div class="award">
+                    <img src="aatm-conference.jpg" alt="AATM Conference">
+                    <p>Paper Published at AATM Conference</p>
+                </div>
+            </section>
+
+            <!-- Let's Connect -->
+            <section id="lets-connect">
+                <h2>Let's Connect</h2>
+                <p>Feel free to reach out to me for collaboration, opportunities, or just a chat.</p>
+                <ul>
+                    <li>Phone: 6305335836</li>
+                    <li>Email: <a href="mailto:mahektikedar0782@gmail.com">mahektikedar0782@gmail.com</a></li>
+                    <li>LinkedIn: <a href="https://linkedin.com/in/mahek-t-125114am" target="_blank">linkedin.com/in/mahek-t-125114am</a></li>
+                    <li>GitHub: <a href="https://github.com/mahekt118" target="_blank">github.com/mahekt118</a></li>
+                </ul>
+            </section>
+        </div>
+    </div>
+
+    <script>
+        function downloadResume() {
+            window.location.href = 'resume.docx'; // Replace with the actual resume file path
+        }
+    </script>
+</body>
+</html>
