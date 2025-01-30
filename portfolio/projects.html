@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Mahek Tikedar</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #e0e0e0;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header Styling */
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #0f4c75, #3282b8);
+            color: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            animation: fadeInDown 1s ease;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+            animation: fadeInUp 1s ease;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 40px;
+            margin: 40px auto;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            animation: fadeIn 1.5s ease;
+        }
+
+        section h2 {
+            font-size: 2rem;
+            color: #00bcd4;
+            margin-bottom: 20px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Project List Styling */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin: 20px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        ul li:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #00bcd4;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            transition: color 0.3s ease;
+        }
+
+        ul li a:hover {
+            color: #ff6f61;
+        }
+
+        ul li a::before {
+            content: "➤";
+            font-size: 1.2rem;
+            color: #ff6f61;
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: linear-gradient(135deg, #0f4c75, #3282b8);
+            color: white;
+            margin-top: 40px;
+            box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9rem;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0 );
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            section {
+                padding: 20px;
+            }
+
+            ul li {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+        <p>Mahek Tikedar | Aspiring Data Scientist & AI Engineer</p>
+        <nav>
+            <ul>
+                <li><a href="mahek.html" class="contact-link">Back to Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>GitHub Projects</h2>
+        <ul>
+            <li><a href="https://github.com/mahekt118/sentiment-analysis-dashboard" target="_blank">Sentiment Analysis Dashboard</a> - Interactive dashboard for sentiment analysis using Streamlit.</li>
+            <li><a href="https://github.com/mahekt118/Img-classification-using-MNIST-Dataset" target="_blank">Image Classification Using MNIST Dataset</a> - Neural network for handwritten digit classification.</li>
+            <li><a href="https://github.com/mahekt118/emotion-detetction-using-FER-" target="_blank">Emotion Detection Using FER</a> - Deep learning model for facial emotion recognition.</li>
+            <li><a href="https://github.com/mahekt118/INX-data--ML-Algo" target="_blank">INX Data Machine Learning Algorithms</a> - Predictive analytics with ML algorithms.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mahek Tikedar. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
